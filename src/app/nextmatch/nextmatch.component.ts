@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//รอเขียนกรองวันที่
+
 @Component({
   selector: 'app-nextmatch',
   templateUrl: './nextmatch.component.html',
