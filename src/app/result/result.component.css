@@ -1,0 +1,18 @@
+.result{
+  display: flex;
+  justify-content: space-around;
+  background-color: yellow;
+}
+.day{
+  display: flex;
+  justify-content: space-around;
+  background-color: #c9bc1f;
+  padding: 10px;
+  margin: 1px;
+  width: 50%;
+}
+.content{
+  height: 1000px;
+  background-color: yellow;
+  
+}

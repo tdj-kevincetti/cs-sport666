@@ -11,7 +11,7 @@ import { TodayComponent } from './today/today.component';
 import { YesterdayComponent } from './yesterday/yesterday.component';
 import { ResultComponent } from './result/result.component';
 import { from } from 'rxjs';
-
+import { TableComponent } from './table/table.component';
 
 
 @NgModule({
@@ -23,7 +23,7 @@ import { from } from 'rxjs';
   ]
     
   ) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayComponent, YesterdayComponent, ResultComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayComponent, YesterdayComponent, ResultComponent, TableComponent ],
   bootstrap:    [ AppComponent ],
   providers: [FirebaseService]
 })
