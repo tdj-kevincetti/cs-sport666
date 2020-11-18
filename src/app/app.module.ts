@@ -7,23 +7,25 @@ import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component';
 import { FirebaseService } from './firebase.service';
 import { NextmatchComponent } from './nextmatch/nextmatch.component';
-import { TodayComponent } from './today/today.component';
+import { TodayresultComponent } from './todayresult/todayresult.component';
 import { YesterdayComponent } from './yesterday/yesterday.component';
 import { ResultComponent } from './result/result.component';
 import { from } from 'rxjs';
 import { TableComponent } from './table/table.component';
-
+import { TodaymatchComponent } from './todaymatch/todaymatch.component';
+import { TomorrowComponent } from './tomorrow/tomorrow.component';
+import { UpcomingtableComponent } from './upcomingtable/upcomingtable.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     {path: "",component:ResultComponent},
     {path: "nextmatch",component:NextmatchComponent},
-    {path: "today",component:TodayComponent},
+    {path: "today",component:TodayresultComponent},
     {path: "yesterday",component:YesterdayComponent}
   ]
     
   ) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayComponent, YesterdayComponent, ResultComponent, TableComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayresultComponent, YesterdayComponent, ResultComponent, TableComponent, TodaymatchComponent, TomorrowComponent, UpcomingtableComponent ],
   bootstrap:    [ AppComponent ],
   providers: [FirebaseService]
 })
