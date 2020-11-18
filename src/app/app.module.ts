@@ -13,7 +13,6 @@ import { ResultComponent } from './result/result.component';
 import { from } from 'rxjs';
 import { TableComponent } from './table/table.component';
 
-
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     {path: "",component:ResultComponent},
