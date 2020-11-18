@@ -20,8 +20,10 @@ import { UpcomingtableComponent } from './upcomingtable/upcomingtable.component'
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     {path: "",component:ResultComponent},
     {path: "nextmatch",component:NextmatchComponent},
-    {path: "today",component:TodayresultComponent},
-    {path: "yesterday",component:YesterdayComponent}
+    {path: "todayresult",component:TodayresultComponent},
+    {path: "yesterday",component:YesterdayComponent},
+    {path: "todaymatch",component:TodaymatchComponent},
+    {path: "tomorrow",component:TomorrowComponent}
   ]
     
   ) ],
