@@ -10,7 +10,6 @@ import { NextmatchComponent } from './nextmatch/nextmatch.component';
 import { TodayresultComponent } from './todayresult/todayresult.component';
 import { YesterdayComponent } from './yesterday/yesterday.component';
 import { ResultComponent } from './result/result.component';
-import { from } from 'rxjs';
 import { TableComponent } from './table/table.component';
 import { TodaymatchComponent } from './todaymatch/todaymatch.component';
 import { TomorrowComponent } from './tomorrow/tomorrow.component';
