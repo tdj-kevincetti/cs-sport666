@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {Football} from '../football'
 @Component({
   selector: 'app-todayresult',
   templateUrl: './todayresult.component.html',
