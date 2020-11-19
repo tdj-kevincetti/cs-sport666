@@ -10,17 +10,14 @@
     <td>ผล</td>
     <td>ทีมเยือน</td>
   </tr>
-  <tr><!--ตรงนี้ทำลูปเชื่อม Firebase-->
-    <td>02:00</td>
-    <td>สเปน</td>
-    <td>6-0</td>
-    <td>เยอรมัน</td>
-  </tr>
-  <tr><!--เขียนให้เห็นภาพเฉยๆ-->
-    <td>02:00</td>
-    <td>ฝรั่งเศส</td>
-    <td>4-2</td>
-    <td>สวีเดน</td>
-  </tr>
   </table>
+
+   <nav class="boats" *ngFor="let fb of footballs">
+    <tr>
+      <td> FT </td>
+      <td> {{fb.home}}</td>
+      <td> {{fb.score}}</td>
+      <td> {{fb.away}} </td>
+     </tr>
+  </nav>
 </div>
