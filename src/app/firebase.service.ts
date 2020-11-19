@@ -13,6 +13,7 @@ export class FirebaseService {
     let DocRef = this.firestore.collection<Football>("worldUSAs");
     return DocRef.valueChanges();
   }
+  
 
 
 }

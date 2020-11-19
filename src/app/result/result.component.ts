@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service'
-//รอเขียนกรองวันที่
+
 @Component({
   selector: 'app-result',
   templateUrl: './result.component.html',
