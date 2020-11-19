@@ -19,16 +19,14 @@ import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
-    {path: "",component:ResultComponent},
+    {path: "",component:TodayresultComponent},
     {path: "nextmatch",component:NextmatchComponent},
-    {path: "todayresult",component:TodayresultComponent},
     {path: "yesterday",component:YesterdayComponent},
     {path: "todaymatch",component:TodaymatchComponent},
     {path: "tomorrow",component:TomorrowComponent},
     {path: "liveboard",component:LiveboardComponent}
   ]
     
-
   ) ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayresultComponent, YesterdayComponent, ResultComponent, TableComponent, TodaymatchComponent, TomorrowComponent, UpcomingtableComponent, LiveboardComponent, CommentComponent ],
   bootstrap:    [ AppComponent ],
