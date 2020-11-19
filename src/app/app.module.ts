@@ -16,6 +16,7 @@ import { TomorrowComponent } from './tomorrow/tomorrow.component';
 import { UpcomingtableComponent } from './upcomingtable/upcomingtable.component';
 import { LiveboardComponent } from './liveboard/liveboard.component';
 import { CommentComponent } from './comment/comment.component';
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     {path: "",component:ResultComponent},
