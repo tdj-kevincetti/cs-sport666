@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Football} from '../football'
+import { FirebaseService } from '../firebase.service'
 @Component({
   selector: 'app-todaymatch',
   templateUrl: './todaymatch.component.html',
