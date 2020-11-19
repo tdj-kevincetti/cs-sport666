@@ -14,6 +14,7 @@ import { TableComponent } from './table/table.component';
 import { TodaymatchComponent } from './todaymatch/todaymatch.component';
 import { TomorrowComponent } from './tomorrow/tomorrow.component';
 import { UpcomingtableComponent } from './upcomingtable/upcomingtable.component';
+import { LiveboardComponent } from './liveboard/liveboard.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
@@ -22,11 +23,12 @@ import { UpcomingtableComponent } from './upcomingtable/upcomingtable.component'
     {path: "todayresult",component:TodayresultComponent},
     {path: "yesterday",component:YesterdayComponent},
     {path: "todaymatch",component:TodaymatchComponent},
-    {path: "tomorrow",component:TomorrowComponent}
+    {path: "tomorrow",component:TomorrowComponent},
+    {path: "liveboard",component:LiveboardComponent}
   ]
     
   ) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayresultComponent, YesterdayComponent, ResultComponent, TableComponent, TodaymatchComponent, TomorrowComponent, UpcomingtableComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, NextmatchComponent, TodayresultComponent, YesterdayComponent, ResultComponent, TableComponent, TodaymatchComponent, TomorrowComponent, UpcomingtableComponent, LiveboardComponent ],
   bootstrap:    [ AppComponent ],
   providers: [FirebaseService]
 })
